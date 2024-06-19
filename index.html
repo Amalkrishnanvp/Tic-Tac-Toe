@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="game-container">
+            <div class="container">
+                <div class="second-container">
+                    <div class="first-part">
+                        <div class="result">
+                            <div class="playerXResult result-shower" id="resultShower1">
+                                <p>Player X</p>
+                                <p class="resultNumber"></p>
+                            </div>
+                            <div class="drawResult result-shower" id="resultShower2">
+                                <p>Draw</p>
+                                <p class="resultNumber"></p>
+                            </div>
+                            <div class="playerOResult result-shower" id="resultShower3">
+                                <p>Player O</p>
+                                <p class="resultNumber"></p>
+                            </div>
+                        </div>
+                        <div class="boxes">
+                            <button class="box"></button>
+                            <button class="box"></button>
+                            <button class="box"></button>
+                            <button class="box"></button>
+                            <button class="box"></button>
+                            <button class="box"></button>
+                            <button class="box"></button>
+                            <button class="box"></button>
+                            <button class="box"></button>
+                        </div>
+                    </div>
+                    <div class="result-btn">
+                        <button class="announcement hide"></button>
+                    </div>
+                    <div class="btn-div">
+                        <button class="new-game-btn">New Game</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="restart-btn">Restart</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

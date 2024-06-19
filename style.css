@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #5c1c74;
+}
+.container {
+  height: 80vh;
+  width: 49vh;
+  background-color: #310849;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.box {
+  height: 10vh;
+  width: 10vh;
+  border-radius: 4px;
+  border: none;
+  background-color: #44145c;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.boxes {
+  width: 35vh;
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.result-shower {
+  width: 10.2vh;
+  height: 10vh;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  text-align: center;
+  padding-top: 7px;
+}
+.result {
+  width: 35vh;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+.new-game-btn {
+  width: 38vh;
+  height: 7vh;
+  border-radius: 4px;
+  border: none;
+  font-weight: bolder;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.second-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 76vh;
+}
+.first-part {
+  height: 54vh;
+}
+.btn-div {
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  margin-bottom: 13px;
+}
+.restart-btn {
+  height: 6vh;
+  width: 20vh;
+  margin-left: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #1d1d1d;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #cfcfcf;
+}
+#resultShower1 {
+  background-color: #4bd1f9;
+}
+#resultShower2 {
+  background-color: #b8d7f7;
+}
+#resultShower3 {
+  background-color: #e2bb04;
+}
+.box:hover {
+  background-color: #5c1c74;
+}
+.restart-btn:hover {
+  background-color: #2d2d2d;
+}
+.announcement {
+  width: 33vh;
+  height: 5vh;
+  font-size: 0.7rem;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  font-weight: bold;
+}
+.hide {
+  display: none;
+}
+.resultNumber {
+  margin-top: 7px;
+}
