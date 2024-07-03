@@ -19,7 +19,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: start;
-  height: 85vh;
+  height: 83.5vh;
   margin-top: 15px;
 }
 .box {
@@ -129,4 +129,7 @@ body {
 }
 .container {
   text-align: center;
+}
+.para {
+  margin-bottom: 0 !important;
 }
