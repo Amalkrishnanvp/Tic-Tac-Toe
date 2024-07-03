@@ -18,8 +18,9 @@ body {
 .game-container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 90vh;
+  align-items: start;
+  height: 85vh;
+  margin-top: 15px;
 }
 .box {
   height: 10vh;
@@ -126,11 +127,6 @@ body {
 .resultNumber {
   margin-top: 7px;
 }
-@media (max-width: 992px) {
-  .restart-btn {
-    margin-left: 0px;
-  }
-  .container {
-    text-align: center;
-  }
+.container {
+  text-align: center;
 }
